@@ -1,2 +1,5 @@
 *.exe
 *.o
+
+# ignorando os prints do relatorio do SPOJ
+*.png
