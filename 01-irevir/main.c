@@ -21,7 +21,7 @@ void zera_grafo() {
 }
 
 int resultado() {
-    int i, j;
+    int i;
     for(i = 1; i <= n; i++) {
         if(visitado[i] == 0) {
             return 0;
@@ -44,7 +44,7 @@ void busca_profundidade(int vertice) {
 
 int main() {
     int v, w, p;
-    int i, saida;
+    int i;
     
     do {
         zera_grafo();
